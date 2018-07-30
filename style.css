@@ -1,0 +1,39 @@
+.parent{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+}
+.chaild{
+  border:2px solid #E3276B;
+  padding:2%;
+  margin:2%;
+  box-shadow:4px 4px 4px #000;
+}
+img{
+  border-radius:50%;
+  border:2px solid  #E3276B; 
+}
+h2,
+h3{
+text-align:center;
+}
+a{
+  display:block;
+  text-align:center;
+  text-decoration:none;
+  background:#3355FF;
+  color:#fff;
+  padding:2%;
+}
+.leftChaild{
+  Width:30%;
+  border:2px solid #ddd;
+  padding:2%;
+  margin:2%;
+}
+.rightChaild{
+  Width:70%;
+  border:2px solid #ddd;
+  padding:2%;
+  margin:2%;
+}
