@@ -55,6 +55,11 @@ function education(edu){
   var table=document.createElement("table");
   child2.appendChild(table);
   var tr="<tr>  <td> S.NO </td> <td> Degree </td> <td> institute </td> <td> Data </td> </tr>"
-  table.innerHTML=tr;
+  //table.innerHTML=tr;
   table.border="1";
+  var tr1="";
+  for(var i=0; i<edu.length;i++){
+tr1+="<tr> <td>"+(i+1)+" </td> <td> "+edu[i].degree+"</td> <td>"+edu[i].institute+"</td> <td> "+edu[i].data+"</td></tr>"
+  }
+  table .innerHTML=tr+tr1;
 }
