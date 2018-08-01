@@ -1,0 +1,22 @@
+{
+"career":{
+"info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
+},
+"education":[
+  {
+    "degree":"B.sc(MECS)",
+    "institute":"Gayathri degree college",
+    "data":["2013-16","64"]
+},
+{
+    "degree":"Intermediate(MPC)",
+    "institute":"Govt.juniour college",
+    "data":["2011-13","80"]
+  },
+  {
+    "degree":"S.S.C",
+    "institute":"HPHS",
+    "data":["2010-11","78"]
+  }
+]
+}
