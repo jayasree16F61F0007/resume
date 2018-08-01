@@ -77,5 +77,11 @@ function skills(skill){
   child2.appendChild(title);
   var list=document.createElement("u1");
   child2.appendChild(list);
+  console.log(skill[i].set.length);
+  for(var j=0;j<skill[i].set.length; j++){
+    var listItem=document.createElement("li");
+    listItem.textContent=skill[i].set[j];
+    list.appendChild(listItem);
+  }
 }
 }
