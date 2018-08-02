@@ -87,6 +87,7 @@ text-align:center;
 }
 .leftChaild{
   Width:60%;
+  height: auto;
   border:2px solid #ddd;
   padding:2%;
   margin:2%;
