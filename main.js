@@ -32,6 +32,7 @@ fetchedData.then(data=>{
   career(data.career);
   education(data.education);
   skills(data.skills);
+  achivements(data.achivements);
 
 })
 
@@ -84,4 +85,23 @@ function skills(skill){
     list.appendChild(listItem);
   }
 }
+}
+//Achivements
+function achivements(achivements){
+  var heading=document.createElement("h2");
+  heading.textContent="Achivements";
+  child2.appendChild(heading);
+  var hLine=document.createElement("hr");
+  heading.appendChild(hLine);
+  var list=document.createElement("ul");
+  child2.appendChild(list);
+  var i=0;
+  while(i<achivements.length){
+    var listItem=document.createElement("li");
+    listItem.textContent=achivements[i].achivedData;
+    list.appendChild(listItem);
+    //console.log(listItem);
+    i++;
+  }
+
 }
